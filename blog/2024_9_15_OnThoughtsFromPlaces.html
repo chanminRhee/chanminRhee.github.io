@@ -17,6 +17,7 @@
             margin: 0;
             padding: 20px;
             line-height: 1.6;
+            height: 100%;
         }
 
         header {
@@ -27,6 +28,28 @@
         header h1 {
             font-size: 36px;
             color: #9C6644;
+        }
+
+        /* Styling for blockquote */
+        blockquote {
+            font-size: 27.5px;
+            font-style: italic;
+            color: #7F5539;
+            margin: 20px auto;
+            padding: 20px;
+            border-left: 5px solid #9C6644;
+            background-color: #EDE0D4;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        /* Optional: Styling for the citation */
+        blockquote cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 20px;
+            color: #B08968;
+            text-align: right;
         }
 
         .meta {
@@ -78,7 +101,7 @@
         /* Special styling for the blog post title link */
         .no-link-style {
             color: inherit; /* This will inherit the color from the parent element, keeping it the same as the heading */
-            text-decoration: none; /* Remove underline */
+            text-decoration: underline;
         }
 
         .no-link-style:hover {
@@ -89,29 +112,29 @@
 <body>
 
     <header>
-        <h1><a href="../blog/blog.html" class="no-link-style">Blog Post Title</a></h1>
+        <h1><a href="../blog/blog.html" class="no-link-style">On <i>Thoughts From Places</i></a></h1>
         <div class="meta">
             <p>By Sebastian | September 14, 2024</p>
         </div>
     </header>
 
     <main>
+
+        <blockquote>“I write because I don't know what I think until I read what I say.”
+            <cite>Flannery O'Connor </cite>
+        </blockquote>
+        
         <article>
-            <h2>Introduction</h2>
-            <p>This is where the introduction to the blog post goes. It’s a great place to set the tone and let readers know what they can expect.</p>
+            <p>You know when someone brings up a hilarious past memory and you have no idea what they’re talking about? I swear, sometimes I feel like I’ve got early-onset dementia because I’m the only person that has no recollection of these friend-group-defining moments.</p>
 
-            <h2>Section 1: Main Topic</h2>
-            <p>In this section, you will discuss the main topic of the post. Include any relevant details, research, or stories to support your points.</p>
+            
+            <p>I think it’s worse because I generally wander through life without keeping track of the things I’ve done. I always avoided taking pictures of both myself and the things that I’m doing because I never had a positive image of my body. I tried keeping a journal, but never wanted to write in it because I was worried that someone would end up reading it someday.</p>
 
-            <h2>Section 2: Supporting Arguments</h2>
-            <p>This section can include additional supporting points or examples. You can also break up content with subheadings.</p>
+            <p>I’ve decided to start Thoughts From Places as a journal of sorts, I guess. I’m going to try writing about hobbies, projects, and capital-T Things that I’m doing. The name isn’t original — to be clear, I stole the title from <a href="https://www.youtube.com/playlist?list=PL9EF0C1C9A93295C5"; class="no-link-style">vlogbrothers’ identically named playlist “Thoughts from Places”.</a>  It’s going to hopefully be a journey of self-discovery, and a place to look back to — a marker of time, a definitive place showing that I Did The Thing.</p>
 
-            <h2>Conclusion</h2>
-            <p>Wrap up the blog post with a summary or final thoughts. You could also encourage readers to leave a comment or share the post.</p>
+            <p>So, yeah. I'm going to try and slow down, take a breath, and collect some memories. Feel free to join in for the ride.</p>
 
-            <h2>Image Example</h2>
-            <p>Images can be a great way to break up text and add visual interest to your blog post.</p>
-            <img src="https://via.placeholder.com/800x400" alt="Example image">
+            
         </article>
     </main>
 
